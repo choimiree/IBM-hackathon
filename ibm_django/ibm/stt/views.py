@@ -17,7 +17,7 @@ def index(request):
     tts_api_url = 'https://api.kr-seo.text-to-speech.watson.cloud.ibm.com/instances/c07cdd3a-f37f-4b6d-8696-c7cab643d85c'
     assistant_api_key = 'RP9pUsl_Z-uZd4fTxaa78wlivZ1rQhpL_XZOekDD1mjn'
     assistant_api_url = 'https://api.us-south.assistant.watson.cloud.ibm.com/instances/6d8c3435-9650-4202-af84-07fc845a4f34'
-    assistant_id='a212691b-e3f4-41ee-9015-20e2370aee5f'
+    assistant_id='0f1acf04-bddb-4195-b475-fdea90a92179'
 
     # 1번 키워드
     filename = 'washington_fire.wav'

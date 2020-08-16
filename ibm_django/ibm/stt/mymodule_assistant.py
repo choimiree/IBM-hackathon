@@ -9,6 +9,7 @@ def authenticate(api_key):
     return authenticator
 
 # assistant = AssistantV2(
+    # assistant_id='0f1acf04-bddb-4195-b475-fdea90a92179',
 #     version='2020-04-01',
 #     authenticator = authenticator
 # )
@@ -21,7 +22,6 @@ def set_assistant(authenticator):
     return assistant
 
 
-#assistant.set_service_url('https://api.us-south.assistant.watson.cloud.ibm.com/instances/6d8c3435-9650-4202-af84-07fc845a4f34')
 
 
 def set_url(assistant, api_url):
@@ -29,7 +29,7 @@ def set_url(assistant, api_url):
     return assistant
 
 # response = assistant.message_stateless(
-#     assistant_id='a212691b-e3f4-41ee-9015-20e2370aee5f',
+#     assistant_id='',
 #     input={
 #         'message_type': 'text',
 #         'text': 'tell a joke'
